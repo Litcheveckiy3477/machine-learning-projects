@@ -1,4 +1,4 @@
-# Machine Learning Projects
+# Dara Science | Machine Learning Projects
 
 A portfolio of applied machine learning projects focused on business and economic data.
 
