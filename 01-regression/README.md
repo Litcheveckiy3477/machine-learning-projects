@@ -1,11 +1,38 @@
-# Regression projects: notebook collection
+# Регресійний аналіз — портфоліо Python
 
-Four regression analyses, prepared for portfolio review from earlier course-based notebooks.
+Чотири дослідження, що демонструють перехід від аналізу ознак до прогнозних моделей. **Кожен проєкт містить коротку візуальну презентацію для HR та окремий технічний Jupyter Notebook.**
 
-The notebooks cover exploratory data analysis, simple linear regression, multiple regression, feature engineering, model evaluation and interpretation. Instructional prompts and conversational code comments were edited for readability; the original analytical code and saved outputs were retained.
+## Огляд проєктів
 
-## Reproducing the analysis
+| Проєкт | Бізнес-завдання | Ключовий результат |
+|---|---|---|
+| [Аналіз медичних витрат](01-feature-analysis/) | Знайти фактори, пов’язані з витратами | Три ручні апроксимації, RMSE 5 199–6 879 |
+| [Проста лінійна регресія](02-simple-linear-regression/) | Оцінити витрати за віком | RMSE ≈ 4 662,51 на навчальних даних |
+| [Множинна регресія цін авто](03-multiple-linear-regression/) | Прогнозувати ціну за характеристиками | RMSE тесту ≈ 258 181,56 |
+| [Категоріальні ознаки авто](04-categorical-feature-engineering/) | Перевірити вплив марки та моделі | RMSE тесту ≈ 207 802,94 без агрегату Mean_Model_Price |
 
-Run the `.ipynb` files in Jupyter or Google Colab. Source datasets `medical-charges.csv` and `cars.csv` are not included in the supplied materials and must be provided before rerunning. Existing outputs remain for inspection, but the notebooks have not been verified end-to-end against the missing datasets.
+## Візуальні результати
 
-These notebooks are a curated learning collection, rather than independent production-ready forecasting projects. Further code review, data validation and model evaluation are recommended before deploying them.
+### Проста лінійна регресія
+
+![Лінійна регресія для медичних витрат](02-simple-linear-regression/figures/графік_14.png)
+
+### Множинна регресія для цін автомобілів
+
+![Фактичні та прогнозовані ціни](03-multiple-linear-regression/figures/графік_32.png)
+
+### Аналіз розширеної моделі
+
+![Порівняння фактичних і прогнозованих значень](04-categorical-feature-engineering/figures/графік_41.png)
+
+## Чим це корисно бізнесу
+
+Регресія дає кількісну оцінку зв’язків між показниками та допомагає будувати прогнози. Але показники на навчальних даних можуть бути оптимістичними: особливо уважно слід перевіряти якість на тестовій вибірці та запобігати витоку інформації.
+
+## Як переглядати
+
+1. Відкрийте папку потрібного проєкту — одразу побачите бізнес-завдання, графіки, метрики та висновки.
+2. Для перевірки алгоритму відкрийте файл `.ipynb`.
+3. Для повного відтворення запуску потрібні початкові датасети `medical-charges.csv` і `cars.csv` (не входили до наданих файлів).
+
+**Походження:** адаптація власних навчальних ноутбуків до формату портфоліо. Результати — з попередніх виконань, не перевірені повторним запуском без CSV.
