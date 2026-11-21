@@ -1,11 +1,13 @@
-# Clustering
+# Кластеризація — Machine Learning
 
-**Goal:** Group observations into meaningful segments.
+Дослідження алгоритмів навчання без учителя, сегментації даних та оцінювання структури кластерів.
 
-## Planned workflow
+## Проєкти
 
-1. Define business problem and success metric.
-2. Inspect data and assess quality.
-3. Establish a baseline.
-4. Train models with suitable validation.
-5. Evaluate, interpret, and summarize limitations.
+### [01. Кластеризація ірисів: K-Means, ієрархічні методи та DBSCAN](01-iris-clustering/README.md)
+
+Дослідження 150 спостережень із набору Iris: порівняння алгоритмів, дендрограми, метод ліктя, коефіцієнт силуету та візуалізація груп.
+
+![Кластери K-Means](01-iris-clustering/figures/01_kmeans_clusters.png)
+
+**Технології:** Python, Pandas, Scikit-learn, SciPy, Matplotlib, Seaborn.
