@@ -1,0 +1,11 @@
+# Exact compatible versions depend on runtime/Colab environment.
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+scikit-learn
+statsmodels
+u8darts
+xgboost
+prophet
