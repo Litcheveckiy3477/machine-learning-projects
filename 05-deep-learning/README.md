@@ -1,11 +1,11 @@
-# Deep learning
+# Deep Learning — портфоліо
 
-**Goal:** Explore neural networks on appropriate tasks.
+Практичні проєкти з глибокого навчання українською мовою.
 
-## Planned workflow
+## Проєкти
 
-1. Define business problem and success metric.
-2. Inspect data and assess quality.
-3. Establish a baseline.
-4. Train models with suitable validation.
-5. Evaluate, interpret, and summarize limitations.
+| № | Проєкт | Технології |
+|---|---|---|
+| 01 | [Основи PyTorch](01-pytorch-fundamentals/) | PyTorch, NumPy, Matplotlib |
+
+Кожен проєкт має власний notebook, опис, залежності та графіки.
